@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container, .header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.navbar, .header {
+  padding-bottom: 80px;  
+}
+
+.header, .navbar {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 160px;
+  width: 160px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-logo > h2{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.header-text, .navbar-list > li{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-text {
+  width: 500px;
+}
+
+.header-btn {
+  background-color: #3882f6;
+}
+
+.header-img {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.header-img > img {
+  width: 100%;
+}
+
+.random-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-title {
+  padding: 20px 0;
+}
+
+.random-items {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 80px;
+}
+
+.item-info {
+  width: 160px;
+  text-align: center;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  padding-top: 80px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 50%;
+}
+
+.container-autor {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 60px;
+}
+
+.quote-autor {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.sign-card {
+  background-color: #3882f6;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 28px 0;
+  border-radius: 8px;
+}
+
+.sign-text {
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.footer > p {
+  color: #e5e7eb;
+}
