@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+
+}
+
+.clean {
+  background-color: white;
+}
+
+.painted {
+  background-color: black;
+}

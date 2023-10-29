@@ -1,0 +1,6 @@
+Objetivo: Hacer un tablero para dibujar
+
+Pasos: Hacer el design de la pagina 
+Hacer una grilla con divs
+Poder hacer que el usuario cambie el tamano de la grilla
+Hacer que cuando se clickee sobre un div su color cambie a negro
