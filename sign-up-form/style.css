@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+aside {
+  background-image: url(./img/photo-1585202900225-6d3ac20a6962.webp);
+  height: 100vh;
+  width: 40rem;
+}
+
+.logo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+  opacity: 0.4;
+  margin-top: 180px;
+}
+
+.logo-card img {
+  display: inline-block;
+  height: 160px;
+  color: white;
+}
+
+.logo-card p {
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+}
+
+.desc-text {
+  padding: 140px 80px 40px 20px;
+  background-color: bisque;
+}
+
+.desc-text p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.desc-text-1 {
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.form-title {
+  padding: 12px 40px 8px 40px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 20px 40px;
+}
+
+label {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='tel'] {
+  width: 250px;
+  padding: 4px;
+  border: 1px solid #e5e7eb;
+}
+
+input:focus-visible {
+  border: none;
+  box-shadow: none;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.31);
+  outline: none;
+}
+
+input[type='password']:invalid {
+  border: 1px solid red;
+}
+
+button {
+  margin-left: 40px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.login-link-text {
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 12px;
+}
